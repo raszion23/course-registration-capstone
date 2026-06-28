@@ -1,0 +1,346 @@
+.breadcrumbs li {
+    font-size: .73rem;
+}
+
+.header #top-bar-primary {
+    background-color: #deede0;
+		background-image: url(https://fb3eebd0c9.nxcli.io/wp-content/uploads/2025/04/edelfelt_banne_twor.png);
+}
+
+.header .custom-logo-link img {
+    margin-left: 138px;
+    border-radius: 10px;
+}
+
+.header #top-bar-secondary #menu-header > .menu-item > a:hover {
+    color: white;
+}
+
+#top-bar-primary li.menu-item a {
+    display: none;
+}
+
+#footer .column {
+	width: 100% !important;
+}
+
+.search-form {
+	display: none;
+}
+
+.hero-image {
+	margin-top: -40px;
+	margin-bottom: 40px;
+box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+	border-radius:10px
+}
+
+#homepage_paragraph {
+	    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 16px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+		margin-right: 0px;
+		margin-left:0px
+}
+
+#homepage_header {
+	margin-top: -40px;
+	color: green;
+	font-weight:bold;
+	font-size: 48px;
+	text-shadow: 1px 1px 2px rgba(0, 0, 1, 0.25);
+}
+
+#homepage_subheader {
+	color: orange;
+	font-weight: bold;
+	font-style:italic;
+	font-size:32px;
+	margin-bottom:30px;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 1.25);
+}
+
+.homepage_button {
+    display: inline-block;
+    padding: 12px 80px;
+		margin-right: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: darkgreen !important;
+    background-color: #b0dbb2;
+	
+    border-radius: 8px;
+	   border-style: solid;
+    border-color: #565656;
+    border-width: 2px;
+	
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.homepage_button:hover {
+    color: white !important;
+		border-color: white;
+}
+
+.carousel-container {
+	 width: 100%;
+	 position: relative;
+	 overflow: hidden;
+}
+
+.carousel {
+  display: flex;
+	transition: transform 		0.5s ease-in-out;
+}
+
+.slide {
+	min-width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 20px;
+  background: #b0dbb2;
+  border-radius: 30px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+	display:flex;
+}
+
+.arrows {
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	transform: translateY(-50%);
+}
+
+.arrow {
+	background: rgba(0, 0, 0, 0.5);
+	color: white;
+	border: none;
+	padding: 10px;
+	cursor: pointer;
+	border-radius: 20%;
+}
+
+.slide_text {
+	flex: 1;
+	padding-right: 20px;
+	padding-left: 30px
+}
+.slide_image img {
+	width: 450px;
+	height: auto;
+	border-radius: 10px;
+	flex: 0;
+}
+
+.slide_text h3 {
+	color: black;
+	font-weight:bold;
+}
+
+.slide_text h1 {
+	color: black;
+	font-weight:bold;
+}
+
+.slide_text p {
+	color:black;
+	text-align:left;
+}
+
+.menu-cart-wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.menu-cart-wrapper .cart-wrapper {
+	min-width: 150px;
+	text-align: right;
+}
+
+
+.api-btn:hover {
+	color: white !important;
+	border-color: white;
+}
+
+.api-btn {
+	 font-size: 15px;
+    background-color: #b0dbb2;
+    border-style: solid;
+    border-color: #565656;
+    border-width: 2px;
+    color: #565656;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.api-btn-inverse {
+		font-size: 15px;
+    background-color: #565656 !important;
+    border-style: solid;
+    border-color: #565656;
+    border-width: 2px;
+    color: #b0dbb2;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+
+.course-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 16px;
+    margin-bottom: 16px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    font-family: sans-serif;
+}
+
+.course-info {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.course-code-box {
+    font-weight: bold;
+    border: 2px solid #000;
+    padding: 8px 12px;
+    text-align: center;
+    border-radius: 6px;
+		width: 200px;
+}
+
+.course-code-box div:first-child {
+    font-size: 0.85rem;
+    color: #333;
+}
+
+.course-code-box div:last-child {
+    font-size: 1.2rem;
+}
+
+.course-meta {
+    display: flex;
+    flex-direction: column;
+}
+
+.course-meta .term {
+    color: #0080ff;
+    font-size: 0.9rem;
+    margin-bottom: 4px;
+}
+
+.course-meta .title {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.course-meta .desc {
+    color: #555;
+    font-size: 0.9rem;
+}
+
+.course-card {
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 16px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+}
+
+.course-card-content {
+    flex-grow: 1;
+}
+
+.course-department {
+    font-weight: bold;
+    font-size: 14px;
+    color: #222;
+    display: block;
+}
+
+.course-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 4px 0;
+}
+
+.course-description {
+    font-size: 14px;
+    color: #666;
+}
+
+.course-credits {
+    font-weight: bold;
+    border: 2px solid #555;
+    border-radius: 9999px;
+    padding: 6px 12px;
+    margin-right: 8px;
+    white-space: nowrap;
+    font-size: 14px;
+		text-align: center;
+}
+
+.course-action-button {
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.remove-button {
+    background-color: #e53e3e;
+    color: white;
+    border: none;
+}
+
+.register-button {
+    background-color: #3182ce;
+    color: white;
+    border: none;
+}
+
+#search-results, #cart-results {
+    margin-top: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
